@@ -1,7 +1,9 @@
 <!doctype html>
 <title>Crawl Results</title>
-{% if name %}
-  <h1>Crawling {{ name }}!</h1>
-{% else %}
-  <h1>Hello World!</h1>
+{% if imageList %}
+<h1>Crawled Images</h1>
+{% for image in imageList %}
+<img alt="" src="{{ image }}">
+{% endfor %} {% else %}
+<h1>Hello World!</h1>
 {% endif %}

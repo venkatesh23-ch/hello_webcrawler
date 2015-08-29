@@ -12,6 +12,18 @@ Install Flask::
 
     pip install flask
 
+Install Selenium:: 
+    
+    pip install selenium==2.47
+ 
+Note: Please Update Your Firefox Browser to latest version to work with the latest version of python selenum package.
+
+Install pyvirtualdisplay::
+
+    sudo apt-get install python-pip
+    sudo apt-get install xvfb
+    sudo pip install pyvirtualdisplay
+
 Run the server::
 
     python hello.py
@@ -23,3 +35,6 @@ Access the URL to see if the server is up::
 To run the unit tests::
 
     python hello_tests.py
+    
+    Provide input as http://bso.sun-sentinel.com then click submit and wait for 2 to 3 minutes to see the scraped images.
+    
