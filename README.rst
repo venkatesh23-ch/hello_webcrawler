@@ -32,9 +32,11 @@ Access the URL to see if the server is up::
 
     http://127.0.0.1:5000/
 
+    Provide input as http://bso.sun-sentinel.com then click submit and wait to see the scraped images.
+
 To run the unit tests::
 
     python hello_tests.py
     
-    Provide input as http://bso.sun-sentinel.com then click submit and wait for 2 to 3 minutes to see the scraped images.
+    
     
