@@ -32,7 +32,7 @@ Access the URL to see if the server is up::
 
     http://127.0.0.1:5000/
 
-    Provide input as http://bso.sun-sentinel.com then click submit and wait to see the scraped images.
+    Provide input url as http://bso.sun-sentinel.com and depth of your wish then click submit and wait to see the scraped images.
 
 To run the unit tests::
 
