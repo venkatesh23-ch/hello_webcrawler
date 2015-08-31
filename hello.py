@@ -19,13 +19,14 @@ def hello_world():
 @app.route("/crawl", methods=['POST'])
 def crawl():
     website = request.form['websiteUrl']
-    # print website
+    depth = request.form['depth']
+    #print 'depth : ',int(depth)
     imageList = []
     browserDisplay = Display(visible=0)
     browserDisplay.start()
     driver = webdriver.Firefox()
     driver.get(website)
-    for i in range(10):
+    for i in range(int(depth)):
         soup = BeautifulSoup(driver.page_source)
         #print soup.findAll('img')
         if i:
@@ -51,4 +52,4 @@ def crawl():
 
 if __name__ == '__main__':
     app.debug = True
-    app.run()
+    app.run(port=5050)
