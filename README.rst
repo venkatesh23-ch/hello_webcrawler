@@ -16,6 +16,9 @@ Install Scrapy
 
     pip install Scrapy
 
+
+
+
 Install Selenium:: (To run with selenium_crawler )
     
     pip install selenium==2.47
@@ -44,7 +47,7 @@ Access the URL to see if the server is up::
 
     http://127.0.0.1:5000/
 
-    Provide input url as http://bso.sun-sentinel.com and depth of your wish then click submit and wait to see the scraped images.
+    Provide input url as http://www.bestwallpapers-hd.com and depth of your wish then click submit and wait to see the scraped images.
 
 To run the unit tests::
 
