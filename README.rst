@@ -16,33 +16,12 @@ Install Scrapy
 
     pip install Scrapy
 
-
-
-
-Install Selenium:: (To run with selenium_crawler )
-    
-    pip install selenium==2.47
- 
-Note: Please Update Your Firefox Browser to latest version to work with the latest version of python selenum package.
-
-Install pyvirtualdisplay::
-
-    sudo apt-get install python-pip
-    sudo apt-get install xvfb
-    sudo pip install pyvirtualdisplay
-
 Run the server::
   
 To crawl using scrapy run the following  
 
     python hello.py
-    
-    (OR)
- 
- To crawl using selenium run the following
-    
-    python selenium_crawler.py
-    
+       
 Access the URL to see if the server is up::
 
     http://127.0.0.1:5000/
