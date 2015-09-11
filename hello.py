@@ -22,7 +22,8 @@ def crawl():
         if not website.endswith('/'):
             website = website + '/' 
         #print 'scrapy runspider flaskspider.py -a website=\'' + website + '\' -a depth=' + depth
-        os.system('scrapy runspider flaskspider.py -a website=\'' + website + '\' -a depth=' + depth)
+        #os.system('scrapy runspider flaskspider.py -a website=\'' + website + '\' -a depth=' + depth)
+        os.system('python crawler.py \'' + website + '\' ' + depth)
         return render_template('Results.html')
         # return "Crawling -------- "+website
     except Exception:
