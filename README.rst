@@ -5,8 +5,8 @@ README for hello_webcrawler
 This is the brief documentation and starter kit for the hello web-crawler task.  It uses flask, a lightweight Python web framework.  The project contains two simple views and two simple unit tests.
 
 
-Running the project
-===================
+Running the project Install Followinf Deopendencies
+=====================================================
 
 Install Flask::
 
@@ -15,6 +15,15 @@ Install Flask::
 Install Scrapy
 
     pip install Scrapy
+    
+Install requests
+    
+    sudo apt-get install python-requests
+
+Install beautifilsout
+
+    sudo apt-get install python-bs4
+
 
 Run the server::
   
